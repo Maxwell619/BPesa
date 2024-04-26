@@ -4,14 +4,84 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    
     <h1>MEMBERSHIP</h1>
 </head>
 
 <body>
-    <p1>
+    <a href="index.html">Home</a><br><br>
+    <a href="createaccount.html">Create an account</a> <br><br>
+    <a href="signup.html">Sign Up</a> <br><br>
+<a href="Feedback.html">Feedback</a><br><br>
+<a href="Services.html">Our services</a> <br><br>
+<a href="Aboutus.html">About Us</a>
+    <p>
         As Los Santos Customs we understand that at circumstances you may need garage services when you do not have sufficient funds. Worry no more for we have introduced an industry changing idea where you as the customer can buy a membership card that will offer you free services for the membership period you have subscribed.
 
-    </p1>
+    </p>
+    <style>
+        /* Editing paragraph */
+        p{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        /* Editing title header */
+        h1{
+            color: blue;
+            margin-left: 500px;
+        }
+        body{
+            background-color: azure;
+        }
+        a{
+            font-size: larger;
+        }
+        h2{
+            color:red;
+            font-family: fantasy;
+        }
+    </style>
     <h2>JOIN US NOW</h2>
+    <!-- Form to create an account -->
+  <form action=""autocomplete="off">
+    <label for="fullname">Fullname:</label>
+    <input type="text" name="fullname"><br><br>
+    <label for="userpass">Password:</label>
+    <input type="password" name="userpass"><br><br>
+    <label for="email">Email address</label>
+    <input type="email" name="email_address"><br><br>
+    <!-- Choosing payment method -->
+    <h2>Please select a payment method</h2>
+    <label>Credit card</label>
+    <input type="radio" name="rate" value="1" id="Credit card">
+    <label>Paypal</label>
+    <input type="radio" name="rate" value="2" id="Paypal">
+    <label>M-Pesa</label>
+    <input type="radio" name="rate" value="3" id="M-Pesa">
+<!-- Choosing a subscription -->
+    <h2>Select a subscription</h2>
+    <div>
+    <label>80$ for 1 month</label>
+    <input type="radio" name="rate" value="1" id="80 $ for 1 month"><br><br>
+</div>
+<div>
+    <label>400$ for 6 months</label>
+    <input type="radio" name="rate" value="2" id="400$ for 6 months"><br><br>
+</div>
+<div>
+    <label>930$ for 1 year</label>
+    <input type="radio" name="rate" value="3" id="930$ for 1 year"><br><br>
+</div>
+
+<div >
+<!-- Adding a subscribe button -->
+    <input type="submit" value="Subscribe">
+</div>
+
+
+    
+
+  </form>
+  
+
 </body>
 </html>

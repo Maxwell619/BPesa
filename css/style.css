@@ -4,23 +4,13 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
      box-sizing: border-box;
 }
-/* creating background */
-.banner{
-    width: 100%;
-    height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(images/VIEW_01-2.jpg);
-    background-size: cover;
-    background-position:center;
-    padding: 10px 10%;
-    overflow: hidden;
 
 
-}
 
 /* Aligns links of other pages */
 
 .top_nav a{
-    color: black;
+    color: rgb(239, 7, 7);
     text-decoration: none;
     float: left;
     display: block;
@@ -29,11 +19,11 @@
     
 }
 .top_nav a:hover{
-    color: #2b2b2bd0;
+    color: #e1d0d0d0;
     background-color: blue;
 }
 .top_nav-right{
-    color: black;
+    color: rgb(252, 249, 249);
     text-decoration: none;
     float: right;
     display: block;
@@ -43,7 +33,7 @@
     
 }
 .top_nav-right a:hover{
-    color: #2b2b2bd0;
+    color: #f8f3f3d0;
     background-color: blue;
 }
 .footer{
@@ -52,5 +42,10 @@
     text-align: center;
     font-weight: bold;
     
+}
+.img{
+    width: 500px;
+    margin-left: 2 px;
+    color: azure;
 }
 

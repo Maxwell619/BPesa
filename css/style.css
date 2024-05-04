@@ -10,7 +10,7 @@
 /* Aligns links of other pages */
 
 .top_nav a{
-    color: rgb(239, 7, 7);
+    color: rgb(10, 10, 10);
     text-decoration: none;
     float: left;
     display: block;
@@ -42,10 +42,28 @@
     text-align: center;
     font-weight: bold;
     
+    
 }
-.img{
-    width: 500px;
+.img2{
+    width: 200px;
     margin-left: 2 px;
     color: azure;
+    float: right;
 }
+.row:after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+.content{
+    float: left;
+    width: 60%;
+    padding: 15px;
+}
+.sidebar{
+    float: left;
+    width: 33%;
+    padding: 15px;
+}
+
 

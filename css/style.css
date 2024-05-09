@@ -25,7 +25,7 @@
 .top_nav-right{
     color: rgb(252, 249, 249);
     text-decoration: none;
-    float: right;
+    float: left;
     display: block;
     padding: 14px 16px;
     text-align: left;
@@ -71,6 +71,9 @@
     float: right;
 }
 
-
+.card card-body{
+    font-family:cursive;
+    
+}
 
 

@@ -65,5 +65,12 @@
     width: 33%;
     padding: 15px;
 }
+.nav-link{
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: right;
+}
+
+
 
 

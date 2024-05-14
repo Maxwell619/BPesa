@@ -80,9 +80,10 @@
 
 .tble{
     border:solid 1px #373737;
-    width: 70%;
-    border-collapse: collapse;
-
+    width: 100%;
+    border-collapse:collapse;
+    float: left;
+    
 }
 td{
     border: solid 1 px #373737;
@@ -93,9 +94,13 @@ td{
 th{
     background-color: rgba(0, 0,0, 90%);
     color: azure;
+    border: solid;
+    padding: 5px;
+    text-align: left;
+
 }
 tr:nth-child(odd){
-    background-color: rgb(32, 32, 237);
+    background-color:cornflowerblue;
     
 }
 tr:hover{background-color: aqua;
@@ -109,9 +114,10 @@ tr:hover{background-color: aqua;
     width:100%;
 }
 } 
-.tble tr{
-    width: 70%;
+.button{
+    color: aqua;
 }
+
 
 
 

@@ -118,7 +118,19 @@ tr:hover{background-color: aqua;
 .button{
     color: aqua;
 }
-
+.subscription{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 20px;
+}
+.pmethod{
+    padding: 20px;
+}
+.joinus{
+    padding: 20px;
+}
+.txtarea{
+   width: 80px;
+}
 
 
 

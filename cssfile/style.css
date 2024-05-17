@@ -17,6 +17,7 @@
     padding: 14px 16px;
     text-align: left;
    
+   
     
 }
 .top_nav a:hover{
@@ -24,13 +25,15 @@
     background-color: blue;
 }
 .top_nav-right{
-    color: rgb(252, 249, 249);
+    color: rgb(48, 9, 240);
     text-decoration:none;
     float: right;
     display: block;
     padding: 15px 14px;
     text-align: right;
-    
+    margin-right: 20px;
+    font-weight: bold;
+   
     
 }
 .top_nav-right a:hover{
@@ -67,7 +70,7 @@
     padding: 15px;
 }
 .nav-link dropdown toggle{
-    color: rgb(15, 15, 229);
+    color: rgb(245, 245, 248);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     float: right;
     padding: 20px;
@@ -130,6 +133,9 @@ tr:hover{background-color: aqua;
 }
 .txtarea{
    width: 80px;
+}
+.services:hover li{
+       
 }
 
 

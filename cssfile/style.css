@@ -16,6 +16,7 @@
     display: block;
     padding: 14px 16px;
     text-align: left;
+   
     
 }
 .top_nav a:hover{
@@ -24,10 +25,10 @@
 }
 .top_nav-right{
     color: rgb(252, 249, 249);
-    text-decoration: none;
+    text-decoration:none;
     float: right;
     display: block;
-    padding: 14px 16px;
+    padding: 15px 14px;
     text-align: right;
     
     
@@ -65,8 +66,8 @@
     width: 33%;
     padding: 15px;
 }
-.nav-link{
-    color: blue;
+.nav-link dropdown toggle{
+    color: rgb(15, 15, 229);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     float: right;
     padding: 20px;
@@ -74,7 +75,7 @@
 }
 
 .card card-body{
-    font-family:cursive;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     
 }
 

@@ -7,17 +7,7 @@
     <link rel="icon" href="images/GTAV-LSCustoms-Logo.webp" >
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <div class="top_nav">      
-        <a href="index.html">Home</a>
-            <a href="Aboutus.html">About Us</a>  
-        <a href="Feedback.html">Feedback</a>
-        <a href="Services.html">Our services</a> 
-        <a href="Premiumservices.html">Membership</a> 
-    </div> 
-        <div class="top_nav-right">
-        <a href="createaccount.html">Create an account</a>
-        <a href="signup.html">Sign in</a> 
-    </div><br><br>
+    <?php include_once("templates/nav.php");?>
     <h1>SIGN-IN</h1>
    
 </head>

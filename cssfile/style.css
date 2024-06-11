@@ -70,7 +70,7 @@
     width: 33%;
     padding: 15px;
 }
-.nav-link dropdown toggle{
+.nav-link dropdown-toggle{
     color: rgb(245, 245, 248);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     float: right;

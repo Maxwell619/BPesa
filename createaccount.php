@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Create an account</title>
@@ -9,6 +10,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="cssfile/style.css">
+
     
     <div class="top_nav">      
         <a href="index.php">Home</a>
@@ -33,18 +35,22 @@
           </ul>
         </div> <br><br><br>
 
-   
+   <div class="ch">
     <h1>CREATE AN ACCOUNT</h1>
+    </div>
 </head>
 <body>
-    <!-- Background image -->
-    <img src="images/GTAV-LSCustoms-Logo.webp" alt=""> 
-    <!-- Links -->
+  
+   
+ 
+
+
 
     
     <!-- Form to create an account -->
     <div class="feedback">
-    <form action=""autocomplete="off">
+    <form action="<?php print htmlspecialchars($_SERVER["PHP_SELF"]); ?>"
+     method="POST" autocomplete="off" class="feedback">
         <label for="fullname">Fullname:</label>
         <input type="text" name="fullname" placeholder="Fullname"><br><br>
         <label for="userpass">Password:</label>
@@ -53,7 +59,7 @@
         <input type="password" name="userpass" placeholder="password"><br><br>
         <label for="email">Email address</label>
         <input type="email" name="email_address" placeholder="Email Address"><br><br>
-        
+ 
 
 <!-- Checking if the user has read terms and conditions -->
 <h4>Have you read the terms and conditions?</h4>
@@ -69,12 +75,14 @@
 <input type="submit" value="Create Account" style="background-color: aqua;">
 
 </div>
+<img src="./images/los-santos-custom_gtao_887689_cover.jpg" alt="Background Image" style="position:fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -1;margin-left: 0px;">
 <style>
 
     h1{
         font-family: Georgia, 'Times New Roman', Times, serif;
         color: blue;
         margin-left: 500px;
+
        
     }
     h4{
@@ -101,7 +109,25 @@
    
 </style>
 
+<?php
+    if(isset($_POST["create_account"])){
+        $fullname=$_POST["fullname"];
+        $password=$_POST["password"];
+        $Reenter_password=$_POST["Re-enter Password"];
+        $email=$_POST["email"];
+    }
 
+    $sql = "INSERT INTO newaccount (fullname, password,Reenter_password, email)
+VALUES ('$fullname', '$password','$Reenter_password','$email')";
+
+if ($conn->query($sql) === TRUE) {
+  echo "New record created successfully";
+} else {
+  echo "Error: " . $sql . "<br>" . $conn->error;
+}
+
+$conn->close();
+?>
 
 </body>
 </html>

@@ -137,9 +137,19 @@ tr:hover{background-color: aqua;
 }
 .signindetails{
        padding: 20px;
+       color: blue;
+       font-weight: bolder;
+       font-size: larger;
 }
 .feedback{
     padding: 20px;
+    color: blue;
+    font-weight: bolder;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.ch{
+    font-weight: bolder;
 }
 
 

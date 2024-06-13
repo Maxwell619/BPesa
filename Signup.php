@@ -12,7 +12,8 @@
    
 </head>
 <body>
-    <img src="images/sign in.jpg" alt="">
+<img src="./images/pexels-pixabay-164634.jpg" alt="Background Image" style="position:fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -1;margin-left: 0px;">
+   
     <!-- Creating a sign up form for users to login to their accounts -->
     <div class="signindetails">
     <form action=""autocomplete="off">
@@ -27,6 +28,7 @@
                 color: blue;
                 margin-left: 500px;
                 
+                
             }
             body{
                 background-color:azure; 
@@ -37,6 +39,8 @@
                 margin-right: 300px;
             }
         </style>
+
+
           <select name = "" id="">
             <option value="">--Select Account</option>
             <option value="">Personal Account</option>

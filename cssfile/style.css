@@ -151,7 +151,13 @@ tr:hover{background-color: aqua;
 .ch{
     font-weight: bolder;
 }
-
+.edit{
+    padding: 20px;
+    font-size: medium;
+    margin-top: 20px;
+    background-color: ;
+    
+}
 
 
 

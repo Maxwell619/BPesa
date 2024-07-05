@@ -7,7 +7,7 @@ $db_name="accountdetails";
 $fullname="fullname";
 $Reenter_password="Reenter_password";
 $email_address="email_address";
-$UserID="UserID";
+$userID="userID";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password ,$db_name);

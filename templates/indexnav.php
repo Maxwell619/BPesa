@@ -4,9 +4,10 @@
         <a href="Feedback.php">Feedback</a>
         <a href="Services.php">Our services</a> 
         <a href="Premiumservices.php">Membership</a>
-   
+       
         <a href="createaccount.php">Create an account</a>
         <a href="signup.php">Sign in</a> 
+        <a href="view_account.php">Accounts</a>
     
 
     <p class="top_nav">

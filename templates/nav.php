@@ -4,6 +4,7 @@
         <a href="Feedback.php">Feedback</a>
         <a href="Services.php">Our services</a> 
         <a href="Premiumservices.php">Membership</a> 
+        <a href="view_account.php">Accounts</a>
     </div> 
         <div class="top_nav-right">
         <a href="createaccount.php">Create an account</a>

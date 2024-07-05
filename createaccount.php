@@ -1,3 +1,4 @@
+<link rel="icon" href="images/GTAV-LSCustoms-Logo.webp" >
 <?php
 require 'includes/db_connect.php';
 
@@ -35,12 +36,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="cssfile/style.css">
+     
     <div class="top_nav">
         <a href="index.php">Home</a>
         <a href="Aboutus.php">About Us</a>
         <a href="Feedback.php">Feedback</a>
         <a href="Services.php">Our services</a>
         <a href="Premiumservices.php">Membership</a>
+        <a href="view_account.php">Accounts</a>
     </div>
     <div class="top_nav-right">
         <a href="createaccount.php">Create an account</a>
@@ -73,6 +76,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <input type="password" name="Reenter_password" placeholder="password" required><br><br>
             <label for="email_address">Email address:</label>
             <input type="email" name="email_address" placeholder="Email Address" required><br><br>
+           
             <!-- Checking if the user has read terms and conditions -->
             <h4>Have you read the terms and conditions?</h4>
             <div>
@@ -111,5 +115,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             }
         }
     </style>
+   
+
+
+
 </body>
 </html>

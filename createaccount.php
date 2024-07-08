@@ -1,3 +1,5 @@
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 <link rel="icon" href="images/GTAV-LSCustoms-Logo.webp" >
 <?php
 require 'includes/db_connect.php';
@@ -81,13 +83,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <h4>Have you read the terms and conditions?</h4>
             <div>
                 <label>Yes</label>
-                <input type="radio" name="rate" value="1" id="Yes"><br><br>
+                <input type="radio" name="rate" value="1" id="Yes" required > <br><br>
             </div>
             <div>
                 <label>No</label>
-                <input type="radio" name="rate" value="2" id="No"><br><br>
+                <input type="radio" name="rate" value="2" id="No" required><br><br>
             </div>
-            <input type="submit" value="Create Account" style="background-color: aqua;">
+            <input type="submit" value="Create Account" style="background-color: blue;" class="btn btn-primary">
         </form>
     </div>
     <img src="./images/los-santos-custom_gtao_887689_cover.jpg" alt="Background Image" style="position:fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -1;margin-left: 0px;">

@@ -1,3 +1,5 @@
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="cssfile/style.css">
 <?php 
 require_once("includes/db_connect.php");
@@ -55,6 +57,11 @@ if(isset($_POST["update_account"])){
         <input type="text" id="Reenter_password" name="Reenter_password" value="<?php echo isset($spot_acc_row['Reenter_password']) ? htmlspecialchars($spot_acc_row['Reenter_password']) : ''; ?>" required><br><br>
         <label for="email_address">Email Address:</label>
         <input type="email" id="email_address" name="email_address" value="<?php echo isset($spot_acc_row['email_address']) ? htmlspecialchars($spot_acc_row['email_address']) : ''; ?>" required><br><br>
-        <button type="submit" name="update_account" style="background-color: aqua;" >Update</button>
+        <button type="submit" name="update_account" class="btn btn-success" style="background-color: green;" >Update</button>
     </form>
+</div>
+
+<div class="lslogo">
+<img src="images/GTAV-LSCustoms-Logo.webp" alt=""><br><br>
+
 </div>

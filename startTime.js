@@ -7,3 +7,4 @@ function startTime(){
     document.getElementById('tmr').innerHTML=h + ":" + m + ":" + s;
     t=setTimeout()
 }
+
